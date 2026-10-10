@@ -1,0 +1,25 @@
+# Documentos y configuración privada del negocio
+/.agents/
+/propuestas/
+/.agents/skills/marrso-commercial-proposal/pricing-engine.md
+/.agents/skills/marrso-commercial-proposal/proposal-registry.md
+/.agents/skills/marrso-commercial-proposal/company-profile.md
+
+# Copias, paquetes de skills y dependencias temporales
+/.backup/
+/dist/
+/tmp/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
